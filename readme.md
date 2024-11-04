@@ -17,7 +17,7 @@ Design Requirements:
 - Low-level programming, with expertise in UART, ADC, PWM, I2C, and timers
 - GUI application development using the Qt library
 
-FOTO
+
 
 ### Mechanical design
 The 3D model of the vehicle can be viewed by downloading the Cart.html file from the "Resources" folder and opening it in a web browser. CAD model was prepared with SolidWorks software.
@@ -25,7 +25,9 @@ The 3D model of the vehicle can be viewed by downloading the Cart.html file from
 The platform, measuring 70x50x35 cm, is equipped with two DC motors with planetary gearboxes to drive the wheels and a DC motor with a worm gear for steering the front axle. Power is transmitted to the wheels via a belt drive. The load-bearing structure is made of chipboard. Mounting components were 3D printed, while rotating parts (such as wheel axles) were machined from aluminum.
 
 The cart underwent load capacity testing, during which it was found to operate effectively with a load of up to 75 kg.
-FOTO
+
+![image](https://github.com/user-attachments/assets/758bf24a-f877-4bb3-af55-94f94836853f)
+
 
 ### Electrical design
 ##### Power board:
@@ -46,11 +48,16 @@ Sensors on the cart:
 - Current sensors: Measure the current drawn by the drive motors.
 - Voltage dividers: Measure the supply voltages for the logic and operational sections.
 
-PHOTO
-PHOTO
-PHOTO
-PHOTO
-PHOTO
+![image](https://github.com/user-attachments/assets/ac96a0bf-502d-42ff-8f42-5a96e1c172a6)
+
+![image](https://github.com/user-attachments/assets/bcb647a3-8b27-4f68-8741-84486340ed02)
+
+![image](https://github.com/user-attachments/assets/03c03781-070a-4673-acdc-eb2878ba634b)
+
+![image](https://github.com/user-attachments/assets/30036e55-de76-48fa-bb02-d6ca234d141c)
+
+![image](https://github.com/user-attachments/assets/508e0bea-ad05-4e76-865c-497019208710)
+
 ### Control application
 The control application was developed using the Qt library.
-FOTO
+![image](https://github.com/user-attachments/assets/210a88c1-8463-4bc1-9412-eb754a932b94)
