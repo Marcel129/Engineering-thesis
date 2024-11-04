@@ -1,0 +1,8 @@
+batteries.cpp:10:1:batteries::batteries(ADC_HandleTypeDef*, uint32_t, uint32_t, uint32_t, uint32_t)	48	static
+batteries.cpp:33:6:void batteries::intermediateADCMeasure()	16	static
+batteries.cpp:53:6:void batteries::setADCChannel(uint32_t)	16	static
+batteries.cpp:69:10:uint32_t batteries::readADCVal(uint32_t)	32	static
+batteries.cpp:85:8:double batteries::readMotorBatteryVoltage_volts()	24	static
+batteries.cpp:88:8:double batteries::readMotorBatteryVoltage_percent()	40	static
+batteries.cpp:93:8:double batteries::readLogicBatteryVoltage_volts()	24	static
+batteries.cpp:96:8:double batteries::readLogicBatteryVoltage_percent()	40	static

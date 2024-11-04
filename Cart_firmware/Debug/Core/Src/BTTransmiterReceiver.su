@@ -1,0 +1,16 @@
+BTTransmiterReceiver.hh:53:2:parameter::parameter()	16	static
+BTTransmiterReceiver.cpp:29:1:msgData::msgData()	24	static
+BTTransmiterReceiver.cpp:39:6:void msgData::clear()	24	static
+BTTransmiterReceiver.cpp:49:1:command::command()	24	static
+BTTransmiterReceiver.cpp:53:6:void command::clear()	24	static
+BTTransmiterReceiver.cpp:64:1:BTTransmiterReceiver::BTTransmiterReceiver(UART_HandleTypeDef*)	16	static
+BTTransmiterReceiver.cpp:71:6:void BTTransmiterReceiver::init()	16	static
+BTTransmiterReceiver.cpp:76:22:UART_HandleTypeDef* BTTransmiterReceiver::getUARTHandler() const	16	static
+BTTransmiterReceiver.cpp:80:6:void BTTransmiterReceiver::getNewMsg()	24	static
+BTTransmiterReceiver.cpp:105:6:bool BTTransmiterReceiver::isNewMsg() const	16	static
+BTTransmiterReceiver.cpp:109:6:void BTTransmiterReceiver::clearBuffer()	16	static
+BTTransmiterReceiver.cpp:115:6:bool BTTransmiterReceiver::sendMsg(char*)	24	static
+BTTransmiterReceiver.cpp:119:6:bool BTTransmiterReceiver::readNewMsg(command&)	152	static
+BTTransmiterReceiver.cpp:162:6:bool BTTransmiterReceiver::parseMsg(command&)	32	static
+BTTransmiterReceiver.cpp:204:6:void BTTransmiterReceiver::sendReceivedMsg()	120	static
+BTTransmiterReceiver.cpp:218:19:long unsigned int BTTransmiterReceiver::crc16(char*)	32	static

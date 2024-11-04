@@ -1,0 +1,5 @@
+encoder.cpp:10:1:incrementalEncoder::incrementalEncoder(TIM_HandleTypeDef*, int, double)	48	static
+encoder.cpp:36:8:double incrementalEncoder::readCurrentSpeed_impulses()	40	static
+encoder.cpp:65:8:double incrementalEncoder::readCurrentWheelSpeed_rpm()	24	static
+encoder.cpp:80:1:absoluteEncoder::absoluteEncoder(I2C_HandleTypeDef*)	16	static
+encoder.cpp:84:6:void absoluteEncoder::init(I2C_HandleTypeDef*)	16	static

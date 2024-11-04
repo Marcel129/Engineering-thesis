@@ -1,0 +1,16 @@
+std_abs.h:70:3:constexpr double std::abs(double)	16	static
+motor.hh:51:15:virtual void motor::refreshControlState()	16	static
+motor.cpp:12:1:motor::motor()	16	static
+motor.cpp:30:8:double motor::getCurrentSpeed_rpm() const	16	static
+motor.cpp:34:6:void motor::setPIDparams(double, double, double)	48	static
+motor.cpp:42:1:DCmotor::DCmotor(TIM_HandleTypeDef*, uint16_t, GPIO_TypeDef*, uint16_t, GPIO_TypeDef*, uint16_t, TIM_HandleTypeDef*, uint16_t)	24	static
+motor.cpp:74:6:virtual void DCmotor::setSpeed_rpm(double)	32	static
+motor.cpp:88:6:void motor::setRotaryDirection(uint8_t)	16	static
+motor.cpp:112:6:virtual void DCmotor::refreshControlState()	24	static
+motor.cpp:145:8:virtual double DCmotor::readCurrentSpeed_rpm()	16	static
+motor.cpp:152:1:turningDCmotor::turningDCmotor(TIM_HandleTypeDef*, uint16_t, GPIO_TypeDef*, uint16_t, GPIO_TypeDef*, uint16_t, I2C_HandleTypeDef*)	32	static
+motor.cpp:186:6:void turningDCmotor::setAngle_deg(double)	32	static
+motor.cpp:199:8:double turningDCmotor::getCurrentAngle() const	16	static
+motor.cpp:203:6:virtual void turningDCmotor::setSpeed_rpm(double)	32	static
+motor.cpp:216:8:virtual double turningDCmotor::readCurrentSpeed_rpm()	16	static
+motor.cpp:220:6:virtual void turningDCmotor::refreshControlState()	24	static

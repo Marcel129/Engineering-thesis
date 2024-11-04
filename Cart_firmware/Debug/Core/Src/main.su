@@ -1,0 +1,6 @@
+main.cpp:83:6:void HAL_UART_RxCpltCallback(UART_HandleTypeDef*)	16	static
+main.cpp:131:5:int main()	616	static
+main.cpp:406:6:void SystemClock_Config()	88	static
+main.cpp:455:6:void Error_Handler()	8	static
+main.cpp:467:1:void __static_initialization_and_destruction_0(int, int)	24	static
+main.cpp:467:1:cpp)	8	static

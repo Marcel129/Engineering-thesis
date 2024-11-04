@@ -1,0 +1,2 @@
+controlBox.cpp:10:1:controlBox::controlBox(UART_HandleTypeDef*)	16	static
+controlBox.cpp:16:6:bool controlBox::sendMsg(char*)	24	static

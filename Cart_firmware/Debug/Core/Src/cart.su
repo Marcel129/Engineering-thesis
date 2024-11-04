@@ -1,0 +1,8 @@
+motor.hh:90:7:void turningDCmotor::setAngleRefreshPeriod(double)	24	static
+cart.cpp:10:1:cart::cart(DCmotor*, DCmotor*, turningDCmotor*)	24	static
+cart.cpp:29:6:void cart::refreshLinearSpeedState()	16	static
+cart.cpp:34:6:void cart::refreshAngleState()	16	static
+cart.cpp:38:6:void cart::setMovingSpeed(double)	24	static
+cart.cpp:43:6:void cart::setTurningAngle(double)	24	static
+cart.cpp:47:6:void cart::setMotorPIDParams(double, double, double, char)	40	static
+cart.cpp:58:8:double cart::getRotationalSpeed(char)	16	static
