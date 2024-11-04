@@ -17,6 +17,7 @@ Design Requirements:
 - Low-level programming, with expertise in UART, ADC, PWM, I2C, and timers
 - GUI application development using the Qt library
 
+![image](https://github.com/user-attachments/assets/07a21a81-c056-42a3-9435-2ae934d5c63f)
 
 
 ### Mechanical design
